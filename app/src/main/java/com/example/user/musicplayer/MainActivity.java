@@ -125,6 +125,7 @@ public class MainActivity extends Activity implements View.OnFocusChangeListener
        public void onClick(View v) {
             switch (focus.getId()) {
 
+
                 case R.id.btn_before:
                     if (currentPosition > 0) {
                         --currentPosition;
