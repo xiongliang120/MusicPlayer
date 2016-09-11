@@ -32,7 +32,6 @@ import java.util.List;
 public class MainActivity extends Activity implements View.OnFocusChangeListener{
     private List<MediaItem> datas;
     private MusicPlayMode mMusicMode;
-
     private Service mService;
     private ImageButton ivBefore;
     private ImageButton ivNext;
