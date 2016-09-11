@@ -1,0 +1,296 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- ChannelTitleImgView   -->
+    <dimen name="channel_id_width">50px</dimen>
+    <dimen name="channel_id_left_margin">10px</dimen>
+    <dimen name="channel_image_width">32px</dimen>
+    <dimen name="channel_image_height">32px</dimen>
+
+    <dimen name="epg_category_list_width">320px</dimen>
+    <!-- 344px -->
+    <dimen name="epg_category_list_leftMargin">24px</dimen>
+    <dimen name="epg_category_list_topMargin">66px</dimen>
+    <dimen name="epg_category_list_divlder">19px</dimen>
+    <dimen name="epg_category_icon_width">54px</dimen>
+    <dimen name="epg_category_icon_height">54px</dimen>
+    <dimen name="epg_category_icon_leftMargin">24px</dimen>
+    <dimen name="epg_category_icon_rightMargin">26px</dimen>
+    <dimen name="epg_category_tx_rightMargin">26px</dimen>
+    <dimen name="epg_category_height">80px</dimen>
+    <dimen name="epg_channel_height">62px</dimen>
+    <dimen name="epg_channel_title_width">245px</dimen>
+    <!-- 245px -->
+    <dimen name="epg_time_height">40px</dimen>
+
+    <dimen name="epg_now_tx_height">30px</dimen>
+    <dimen name="epg_now_tx_h_margin">54px</dimen>
+    <dimen name="epg_now_img_width">13px</dimen>
+    <dimen name="epg_now_img_height">7px</dimen>
+
+    <dimen name="epg_item_vod_composite_icon_left_margin">60px</dimen>
+    <dimen name="epg_item_left_margin">22px</dimen>
+    <dimen name="epg_item_font_size">22sp</dimen>
+    <dimen name="epg_time_font_size">18sp</dimen>
+    <dimen name="epg_item_img_width">120px</dimen>
+    <dimen name="epg_item_shead_width">66px</dimen>
+
+    <dimen name="epg_game_item_img_width">40px</dimen>
+    <dimen name="epg_game_item_img_height">40px</dimen>
+    <dimen name="epg_px_per_ms">0.0001666666667px</dimen>
+    <!-- 姣忔绉掑灏戝儚绱�  1鍒嗛挓10鍍忕礌鎹㈢畻 10/(60 * 1000) -->
+    <dimen name="epg_item_width">250px</dimen>
+
+    <dimen name="epg_flipper_max_leftMargin">330px</dimen>
+    <!-- 344px -->
+    <dimen name="epg_flipper_min_leftMargin">77px</dimen>
+
+    <dimen name="epg_info_left_margin">80px</dimen>
+    <dimen name="epg_info_right_margin">300px</dimen>
+
+    <dimen name="epg_spread_topMargin">257px</dimen>
+    <dimen name="epg_spread_leftMargin">28px</dimen>
+    <dimen name="epg_spread_width">16px</dimen>
+    <dimen name="epg_spread_height">16px</dimen>
+    <dimen name="epg_fragment_marginLeft">58px</dimen>
+
+    <dimen name="epg_title_rect_x_offset">135px</dimen>
+
+    <dimen name="epg_item_rect_x_offset">381px</dimen>
+    <dimen name="epg_item_rect_top">235px</dimen>
+    <dimen name="epg_item_rect_bottom">295px</dimen>
+
+    <dimen name="epg_highlight_channel_height">104px</dimen>
+    <dimen name="epg_highlight_item_rect_x_offset">324px</dimen>
+    <dimen name="epg_highlight_item_rect_top">212px</dimen>
+    <dimen name="epg_highlight_item_rect_bottom">315px</dimen>
+
+    <dimen name="epg_category_rect_x_offset">24px</dimen>
+    <dimen name="epg_category_rect_top">235px</dimen>
+    <dimen name="epg_category_rect_bottom">295px</dimen>
+
+    <!-- RotationImgView 720p-->
+    <dimen name="img_btn_tx_leftMargin">10px</dimen>
+    <dimen name="img_btn_tx_topMargin">10px</dimen>
+    <dimen name="img_btn_tx_bottomMargin">10px</dimen>
+    <dimen name="img_btn_tx_font_size">23sp</dimen>
+    <dimen name="img_btn_img_width">120px</dimen>
+    <dimen name="img_btn_img_height">108px</dimen>
+
+    <!-- RotationImgView 1080p-->
+    <dimen name="img_btn_img_large_width">180px</dimen>
+    <dimen name="img_btn_img_large_height">120px</dimen>
+
+
+    <dimen name="head_channelid_font">27.7sp</dimen>
+    <dimen name="head_channelname_font">20.8sp</dimen>
+    <dimen name="head_operate_font">18.49sp</dimen>
+    <dimen name="head_category_font">27.7sp</dimen>
+    <dimen name="head_divider_height">2px</dimen>
+    <dimen name="head_height">72px</dimen>
+    <dimen name="contentFragmentLayout_height">520px</dimen>
+    <dimen name="homepage_height">620px</dimen>
+
+    <dimen name="head_text_height">50px</dimen>
+    <dimen name="head_text_top_margin">20px</dimen>
+    <dimen name="head_left_margin">54px</dimen>
+    <dimen name="head_text_right_margin">52px</dimen>
+
+    <dimen name="head_name_margin_id">25px</dimen>
+
+    <dimen name="head_image_right_margin_text">15px</dimen>
+    <dimen name="head_text_right_margin_image">40px</dimen>
+
+    <dimen name="head_image_width">60px</dimen>
+    <dimen name="hed_image_height">22px</dimen>
+
+    <dimen name="game_head_margin_top">29dp</dimen>
+
+    <!-- progress bar 720p -->
+    <dimen name="highlight_margin_right">-7px</dimen>
+    <dimen name="highlight_margin_bottom">-5px</dimen>
+
+    <dimen name="progress_margin_top">74px</dimen>
+    <!-- <dimen name="progress_width">20px</dimen> -->
+    <dimen name="progress_height">30px</dimen>
+
+    <dimen name="attachview_padding_left">5px</dimen>
+    <dimen name="attachview_padding_right">5px</dimen>
+
+    <dimen name="timeshift_progress_width">2px</dimen>
+
+    <!-- popup 720p-->
+    <dimen name="popup_main_title_font">34.67sp</dimen>
+    <dimen name="popup_title_font">27.73sp</dimen>//27.73 32
+    <dimen name="popup_content_font">20.8sp</dimen>//20.8 24
+    <dimen name="popup_time_padding">5px</dimen>
+
+    <dimen name="popup_info_content_margin_title">5px</dimen>
+    <dimen name="popup_info_time_width">34px</dimen>
+    <dimen name="popup_info_margin_info">20px</dimen>
+    <dimen name="activity_height">720px</dimen>
+    <dimen name="popup_btn_width">188px</dimen>
+    <dimen name="popup_btn_height">108px</dimen>
+    <dimen name="popup_btn_margin_btn">14px</dimen>
+    <dimen name="popup_btn_marginBottom">25px</dimen>
+    <dimen name="recommend_btn_margin_btn">25px</dimen>
+
+    <dimen name="popup_control_marginLeft">80px</dimen>
+
+    <dimen name="popup_control_desc_margin_bottom">158px</dimen>
+    <dimen name="popup_control_name_margin_bottom">251px</dimen>
+    <dimen name="popup_control_desc_margin_right">100px</dimen>
+    <dimen name="popup_control_img_width">156px</dimen>
+    <dimen name="popup_control_img_height">88px</dimen>
+    <dimen name="popup_control_name_maxWidth">900px</dimen>
+
+    <dimen name="popup_control_focus_init_marginTop">197px</dimen>
+
+    <dimen name="calender_width">1014px</dimen>
+    <dimen name="calender_height">107px</dimen>
+    <dimen name="calender_margin_top">87px</dimen>
+    <dimen name="calender_margin_left">133px</dimen>
+    <dimen name="calender_divider_width">2px</dimen>
+    <dimen name="calender_divider_height">92px</dimen>
+    <dimen name="calender_divider_margin_left">639px</dimen>
+    <dimen name="calender_divider_margin_top">95px</dimen>
+    <dimen name="calender_date_width">496px</dimen>
+    <dimen name="calender_date_height">87px</dimen>
+    <dimen name="calender_date_item_height">35px</dimen>
+    <dimen name="calender_time_item_width">200px</dimen>
+    <dimen name="calender_date_margin_top">97px</dimen>
+    <dimen name="calender_date_margin_left">143px</dimen>
+    <dimen name="calender_arrow_size">24px</dimen>
+    <dimen name="calender_arrow_h_margin">20px</dimen>
+
+    <!--  en -->
+    <dimen name="calender_date_en_margin_left">110px</dimen>
+    <dimen name="calender_date_en_tx_width_1">80px</dimen>
+    <dimen name="calender_date_en_tx_width_2">40px</dimen>
+    <dimen name="calender_date_en_tx_width_3">60px</dimen>
+    <dimen name="calender_date_en_tx_width_4">65px</dimen>
+
+    <!--  cn -->
+    <dimen name="calender_date_cn_margin_left">110px</dimen>
+    <dimen name="calender_date_cn_tx_width_1">80px</dimen>
+    <dimen name="calender_date_cn_tx_width_2">80px</dimen>
+    <dimen name="calender_date_cn_tx_width_3">50px</dimen>
+    <dimen name="calender_date_cn_tx_width_4">50px</dimen>
+
+    <!-- game listView size  720p -->
+    <dimen name="game_list_title_size">32sp</dimen>
+
+    <dimen name="game_btn_width">238px</dimen>
+    <dimen name="game_btn_height">133px</dimen>
+    <dimen name="game_btn_margin_left">21px</dimen>
+    <dimen name="game_btn_margin_top">27px</dimen>
+
+    <dimen name="game_list_item_height">160px</dimen>
+    <dimen name="game_list_init_height">293px</dimen>
+    <dimen name="game_list_height">553px</dimen>
+    <dimen name="game_list_title_margintop">100px</dimen>
+    <dimen name="game_list_margintop">67px</dimen>
+
+    <!-- game more btn 720p -->
+    <dimen name="game_more_margintop">387px</dimen>
+    <dimen name="game_more_tx_size">20.8sp</dimen>
+    <dimen name="game_more_btn_height">56px</dimen>
+    <dimen name="game_more_btn_tx_height">52px</dimen>
+    <dimen name="game_more_btn_divider_height">2px</dimen>
+    <dimen name="game_more_btn_divider_width">1014px</dimen>
+    <dimen name="game_listview_margin_left">133px</dimen>
+    <dimen name="game_listview_margin_right">132px</dimen>
+    <dimen name="game_more_btn_tx_margin_top">12px</dimen>
+
+    <!-- control banner program info  720p -->
+    <dimen name="control_banner_name_font">34.67sp</dimen>
+    <dimen name="control_banner_time_font">20.8sp</dimen>
+
+    <dimen name="control_banner_img_width">156px</dimen>
+    <dimen name="control_banner_img_height">88px</dimen>
+
+    <dimen name="control_banner_bottom_margin">25px</dimen>
+    <dimen name="control_banner_left_margin">80px</dimen>
+
+    <dimen name="control_banner_desc_margin_img">20px</dimen>
+    <dimen name="control_banner_desc_right_margin">160px</dimen>
+    <dimen name="control_banner_desc_top_margin">10px</dimen>
+    <dimen name="control_banner_desc_bottom_margin">20px</dimen>
+
+    <dimen name="control_banner_name_max_width">900px</dimen>
+
+    <dimen name="control_banner_time_height">34px</dimen>
+    <dimen name="control_banner_time_left_margin">20px</dimen>
+    <dimen name="control_banner_time_padding">5px</dimen>
+    <dimen name="control_banner_time_bottom_margin">18px</dimen>
+
+    <dimen name="control_banner_btn_recommend">22px</dimen>
+    <dimen name="control_banner_btn_divider">3px</dimen>
+
+    <!-- play status icon 720p -->
+    <dimen name="play_status_icon_margin_left">40px</dimen>
+    <dimen name="play_status_icon_margin_top">40px</dimen>
+    <dimen name="play_status_icon_margin_top_reset">112px</dimen>
+    <dimen name="play_status_icon_margin_icon">8px</dimen>
+    <dimen name="play_status_icon_width">54px</dimen>
+    <dimen name="play_status_icon_height">43px</dimen>
+    <dimen name="play_status_pvr_width">128px</dimen>
+    <dimen name="play_status_maxicon_width">120px</dimen>
+
+    <!-- remind_dialog 鐩稿叧 dimen 720p-->
+    <dimen name="remind_dialog_width">760px</dimen>
+    <dimen name="remind_pin_width">400px</dimen>
+    <dimen name="remind_dialog_height">300px</dimen>
+    <dimen name="remind_dialog_padding_l_r">53px</dimen>
+    <dimen name="remind_dialog_content_margintop">32px</dimen>
+    <dimen name="remind_pin_margintop">20px</dimen>
+    <dimen name="remind_pin_marginleft">40px</dimen>
+    <dimen name="remind_dialog_okbtn_margintop">32px</dimen>
+    <dimen name="remind_dialog_okbtn_height">60px</dimen>
+    <dimen name="remind_text_size">24sp</dimen>
+    <dimen name="remind_pin_size">20sp</dimen>
+    <dimen name="remind_text_block_height">96sp</dimen>
+
+    <!-- custom dialog -->
+    <dimen name="custom_dialog_margin_horizontal">30sp</dimen>
+    <dimen name="custom_dialog_width_bigger">960sp</dimen>
+
+    <!-- ============================ -->
+    <!--  Live Play dimens     -->
+    <!-- ============================ -->
+    <dimen name="live_play_current_program_margin_left">20dp</dimen>
+    <dimen name="live_play_next_program_margin_left">40dp</dimen>
+    <dimen name="channel_connent_line_hight">1px</dimen>
+    <dimen name="epg_category_name_width">240px</dimen>
+    <dimen name="more_vod_title_font_size">24sp</dimen>
+    <dimen name="more_vod_title_margin_top">97dp</dimen>
+    <dimen name="more_vod_title_margin_left">16dp</dimen>
+
+    <dimen name="popup_dialog_width">589px</dimen>
+    <dimen name="popup_dialog_height">253px</dimen>
+    <dimen name="setting_item_font">24sp</dimen>
+
+    <dimen name="setting_second_title_margin_bottom">10dp</dimen>
+    <dimen name="setting_second_title_margin_top">15dp</dimen>
+    <dimen name="setting_info_second_font">24sp</dimen>
+    <dimen name="setting_item_margin_left">18px</dimen>
+    <dimen name="program_popup_content_margin_top">500dp</dimen>
+    <dimen name="title_popup_content_margin_top">519dp</dimen>
+
+    <dimen name="popup_title_margin_top">30dp</dimen>
+    <dimen name="popup_desc_height">64dp</dimen>
+
+
+    <dimen name="media_center_photo_margin_top">37dp</dimen>
+
+    <dimen name="music_lyric_line_space">48dp</dimen>
+    <dimen name="music_lyric_text_size">24sp</dimen>
+
+
+    <dimen name="music_bg_dialog_item_height">61px</dimen>
+    <dimen name="screen_protection_item_left_margin">61dp</dimen>
+    <dimen name="screen_protection_item_title_left_margin">9dp</dimen>
+    <dimen name="photo_back_music_margin_left">10dp</dimen>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/control_head"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/control_layout_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/controlbar_bg"
+        android:scaleType="fitXY" />
+    <View
+        android:id="@+id/divider_head"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/head_divider_height"
+        android:layout_marginTop="@dimen/head_height"
+        android:background="@color/head_divider" />
+
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/head_text_height"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/head_text_top_margin"
+        android:layout_marginLeft="@dimen/head_left_margin"
+        android:layout_centerVertical="true" >
+		<TextView
+			android:id="@+id/channel_id"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:textColor="@color/head_channel"
+			android:textSize="@dimen/head_channelid_font" />
+		<TextView
+			android:id="@+id/channel_name"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_toRightOf="@id/channel_id"
+			android:layout_marginLeft="@dimen/head_name_margin_id"
+			android:layout_centerVertical="true"
+			android:text="ABC7"
+			android:textColor="@color/head_channel"
+			android:textSize="@dimen/head_channelname_font" />
+		<TextView
+		    android:id="@+id/head_menu_text"
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="@dimen/head_text_right_margin"
+			android:layout_centerVertical="true"
+			android:text="提示"
+			android:textColor="@color/head_operator"
+			android:textSize="@dimen/head_operate_font" />
+		<ImageView 
+		    android:id="@+id/head_menu_image"
+		    android:layout_width="@dimen/head_image_width"
+		    android:layout_height="@dimen/hed_image_height"
+		    android:layout_centerVertical="true"
+		    android:layout_toLeftOf="@id/head_menu_text"
+		    android:layout_marginRight="@dimen/head_image_right_margin_text"
+		    android:background="@mipmap/guide_menu" />
+    </RelativeLayout>
+</RelativeLayout>

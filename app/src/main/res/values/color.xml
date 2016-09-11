@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="epg_h_line">#999999</color>
+    <color name="epg_spread_line">#696969</color>
+    <color name="epg_v_focus_line">#4d4d4d</color>
+    <color name="epg_v_line">#202020</color>
+    <color name="epg_item_tx">#808080</color>
+    <color name="epg_item_focus_tx">#4d4d4d</color>
+
+    <!-- banner head -->
+    <color name="head_operator">#99F2F2F2</color>
+    <color name="head_category">#99F2F2F2</color>
+    <color name="head_channel">#B3F2F2F2</color>
+    <color name="head_divider">#59F2F2F2</color>
+
+    <!-- timeshift progress -->
+    <color name="timeshift_progress">#00B2FF</color>
+
+    <!-- RotationImgView -->
+    <color name="img_btn_tx_color">#F2F2F2</color>
+
+    <!-- popup -->
+    <color name="popup_control_name">#F2F2F2</color>
+    <color name="popup_control_time">#F2F2F2</color>
+    <color name="popup_control_desc">#99F2F2F2</color>
+
+    <!-- game -->
+    <color name="game_divider">#bfF2F2F2</color>
+    <color name="game_text">#bfF2F2F2</color>
+
+    <!-- control banner -->
+    <color name="info_program_name">#F2F2F2</color>
+    <color name="info_program_desc">#CCF2F2F2</color>
+    <color name="info_program_time">#F2F2F2</color>
+
+    <color name="font_light_color">#F2F2F2</color>
+
+    <!-- customDialog -->
+    <color name="custom_dialog_disable_color">#A8A8A8</color>
+
+    <color name="setting_second_title_tx">#989898</color>
+
+    <!-- 鐩存挱鍔ㄦ�鑿滃崟 -->
+    <color name="dynamic_menu_default_text_color">#ffffff</color>
+
+    <color name="edittext_hint_color">#454647</color>
+
+    <!--<color name="aa">#000000</color>-->
+    <!--<color name="bb">#00ffff</color>-->
+    <!--<color name="cc">#00ff00</color>-->
+    <!--<color name="dd">#ffff00</color>-->
+    <!--<color name="ww">#ffffff</color>-->
+    <!--<color name="rr">#ea0fff</color>-->
+    <color name="wifi_info_color">#00b2ff</color>
+    <color name="music_lyric_color">#4FC5C7</color>
+</resources>
